@@ -1,0 +1,66 @@
+are my answers correct
+
+https://www.theodinproject.com/lessons/foundations-fundamentals-part-1
+
+Knowledge Check: FUNDAMENTALS PART 1
+
+
+NAME THE THREE WAYS TO DECLARE A VARIABLE?
+Let, Const and Var.
+
+
+
+WHICH OF THE THREE VARIABLE DECLARATIONS SHOULD YOU AVOID AND WHY?
+Var, because sometimes it behaves in a way that you may not expect.
+
+
+
+WHAT RULES SHOULD YOU FOLLOW WHEN NAMING VARIABLES?
+Only use alphabets and numbers. Never use symbols except $ and _. Never use numbers to start a name. Always name the variable something that explains what it is clearly and is human readable, avoid abbreviations. When the variable uses multiple words use camelCase. Never used reserved names like let, function or return. Use all capitals for const variables that we know the value of prior to running the code, whereas we typically use lower case for const variables were the value will be determined at run time.
+
+
+WHAT HAPPENS WHEN YOU ADD NUMBERS AND STRINGS TOGETHER?
+The number is coerced into a string.
+
+
+
+HOW DOES THE MODULO (%), OR REMAINDER, OPERATOR WORK?
+It divides the to operands and returns the remainder.
+
+
+
+EXPLAIN THE DIFFERENCE BETWEEN == AND ===.
+The first == is used to compare the value variables and the second === is used to compare the value of variables along with the data type of variables.
+
+
+WHEN WOULD YOU RECEIVE A NAN RESULT?
+When you try to perform an arithmetic operation on a non arithmetic number. 
+i.e. let x = 20 / Cookies;
+
+
+HOW DO YOU INCREMENT AND DECREMENT A NUMBER?
+In order to increment or decrement a number you would add a ++ or a -- to the variable you are trying to increment or decrement.
+
+
+EXPLAIN THE DIFFERENCE BETWEEN PREFIXING AND POSTFIXING INCREMENT/DECREMENT OPERATORS.
+If the ++ and -- are added to the beginning
+of the variable then that is considered pre and the increment or decrement will immediately return the new updated value for use in the expression wheres if the ++ and -- are added after this is known as post and the new value will not be returned and the change will happen after the expression is executed. 
+
+
+
+WHAT IS OPERATOR PRECEDENCE AND HOW IS IT HANDLED IN JS?
+It is the order in which operators are executed based on priority starting with the unary + all the way down to the assignment operator. Parenthesis overrides any priority.
+
+
+
+HOW DO YOU ACCESS DEVELOPER TOOLS AND THE CONSOLE?
+Open a browser and right click anywhere on the webpage then select inspect. The developer tray will open in the browser where you will see the console tab, click on it to access the console.
+
+
+
+HOW DO YOU LOG INFORMATION TO THE CONSOLE?
+Console.log(put stuff here to lo to the console!)
+
+
+WHAT DOES UNARY PLUS OPERATOR DO TO STRING REPRESENTATIONS OF INTEGERS? EG. +”10”
+It will convert it to a number like the Number() function.
